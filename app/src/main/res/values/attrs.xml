@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoopView">
+        <attr name="textsize" format="integer" />
+        <attr name="lineSpace" format="float" />
+        <attr name="centerTextColor" format="integer" />
+        <attr name="outerTextColor" format="integer" />
+        <attr name="dividerTextColor" format="integer" />
+        <attr name="itemsVisibleCount" format="integer" />
+        <attr name="isLoop" format="boolean" />
+        <attr name="initialPosition" format="integer" />
+        <attr name="scaleX" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="UserGuideFloatingView">
+        <attr name="arrow_position" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+        <attr name="arrow_align" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+        <attr name="arrow_height" format="dimension" />
+        <attr name="arrow_width" format="dimension" />
+        <attr name="arrow_margin_left" format="dimension" />
+        <attr name="arrow_margin_right" format="dimension" />
+        <attr name="bg" format="color" />
+        <attr name="text_size" format="float" />
+        <attr name="text_radius" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="text_padding_left" format="dimension" />
+        <attr name="text_padding_right" format="dimension" />
+        <attr name="text_padding_top" format="dimension" />
+        <attr name="text_padding_bottom" format="dimension" />
+        <attr name="text_content" format="string" />
+        <attr name="text_max_width" format="dimension" />
+    </declare-styleable>
+
+
+
+</resources>
